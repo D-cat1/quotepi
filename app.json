@@ -1,0 +1,13 @@
+{
+    "name": "quotly",
+    "description": "api qoutly",
+    "repository": "https://github.com/D-cat1/quotepi.git",
+    "stack": "container",
+     "keywords": [
+        "quote api"
+    ],
+    "buildpacks": [
+        { "url": "heroku/nodejs" },
+        { "url": "heroku-community/apt" }
+    ]
+}
